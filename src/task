@@ -1,0 +1,7 @@
+Integer x = 100;
+Integer y = 300;
+Integer z = x + y;
+
+1) Integer x = Integer.valueOf(100);
+2) Integer y = Integer.valueOf(300);
+5) Integer z = Integer.valueOf(x.intValue(100)+ y.intValue(300))
